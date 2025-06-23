@@ -19,6 +19,8 @@ body {
     box-shadow:
       0 0 15px #ff8c00,
       0 0 30px #ff8c00;
+      max-width: 360px;
+  width: 90%;
   }
   
   /* Título principal com efeito neon */
