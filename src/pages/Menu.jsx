@@ -39,8 +39,12 @@ function Menu() {
         <h2>Bem-vindo, Jogador {uidInicio}!</h2>
         <p><strong>Saldo:</strong> R$ {saldo.toFixed(2)}</p>
         <div className="menu-buttons">
-          <button>💰 Depositar</button>
-          <button>💸 Sacar</button>
+        <button onClick={() => navigate("/deposito")}>💰 Depositar</button>
+
+        <button className="botao-saque" onClick={() => navigate("/saque")}>
+  💸 Sacar
+</button>
+
         </div>
   
         {/* Lista de mesas */}

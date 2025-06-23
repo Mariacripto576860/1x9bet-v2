@@ -1,0 +1,72 @@
+.deposito-container {
+    background-color: #111;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 3rem auto;
+    box-shadow: 0 0 20px #ff8c00;
+    text-align: center;
+  }
+  
+  .valores-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0;
+  }
+  
+  .valores-grid button {
+    background: black;
+    border: 2px solid #ff8c00;
+    color: #ff8c00;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff8c00;
+  }
+  
+  .valores-grid button.ativo {
+    background-color: #ff8c00;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .chave-pix {
+    margin: 1.5rem 0;
+  }
+  
+  .chave-pix input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .chave-pix button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #ff8c00;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .upload-comprovante {
+    margin: 1.5rem 0;
+  }
+  
+  .enviar {
+    padding: 12px 25px;
+    background-color: #ff8c00;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 12px #ff8c00;
+  }
+  

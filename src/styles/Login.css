@@ -43,7 +43,7 @@ body {
   
   /* Inputs com brilho interno */
   .login-container input {
-    width: 100%;
+    width: 90%;
     padding: 12px;
     margin: 10px 0;
     border: 2px solid #ff7300;

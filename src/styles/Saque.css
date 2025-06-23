@@ -1,0 +1,30 @@
+.saque-container {
+    background-color: #111;
+    color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 3rem auto;
+    box-shadow: 0 0 20px #ff8c00;
+    text-align: center;
+  }
+  
+  .saque-container input,
+  .saque-container textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .saque-container button {
+    padding: 12px 25px;
+    background-color: #ff8c00;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 0 12px #ff8c00;
+  }

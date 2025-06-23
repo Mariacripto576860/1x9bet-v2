@@ -29,7 +29,14 @@ function Login() {
   const logar = async () => {
     try {
       await signInWithEmailAndPassword(auth, email, senha);
-      navigate("/menu");
+  
+      // Verifica se é o login de suporte
+      if (email === "suporte@1x9.com") {
+        navigate("/login-suporte");
+      } else {
+        navigate("/menu");
+      }
+  
     } catch (error) {
       alert("Erro ao logar: " + error.message);
     }
