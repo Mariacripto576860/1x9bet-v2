@@ -1,0 +1,151 @@
+.menu-container {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu-overlay {
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 0 12px #ff9900;
+    width: 90%;
+    max-width: 420px;
+    height: 90vh; /* Ocupa quase a tela */
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .menu-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 38px;
+  }
+  .menu-container {
+    background-image: url('../assets/bg-cassino.jpg'); /* ajuste conforme seu path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    width: 100vw;
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-content {
+    background-color: rgba(0, 0, 0, 0.5); /* escurece o fundo */
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    max-width: 90%;
+    width: 400px;
+    backdrop-filter: blur(5px);
+  }
+  
+  .menu-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #ffffff;
+  }
+  
+  .menu-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .menu-buttons button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(90deg, #ff9900, #ff5500);
+    box-shadow: 0 0 10px #ff6600;
+    transition: transform 0.2s;
+  }
+  
+  .menu-buttons button:hover {
+    transform: scale(1.05);
+  }
+
+  .mesas-scroll {
+    flex: 1;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+  
+  .mesa-card {
+    background: rgba(0, 0, 0, 0.85);
+    border: 2px solid #ff9100;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 0 10px #ff9100, 0 0 20px #ff7b00;
+  }
+  
+  .mesa-card h3 {
+    margin: 5px 0;
+    color: #ff9100;
+    text-shadow: 0 0 10px #ff9100;
+  }
+  
+  .mesa-card p {
+    color: white;
+  }
+  
+  .mesa-card button {
+    margin-top: 10px;
+    background-color: #000;
+    color: #ff9100;
+    border: 2px solid #ff9100;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px #ff9100, 0 0 20px #ff7b00;
+  }
+  
+  .mesa-card button:hover {
+    background-color: #ff9100;
+    color: #000;
+  }
+  @media (max-width: 480px) {
+    .menu-overlay {
+      padding: 15px;
+      height: 92vh;
+    }
+  
+    .mesa-card h3 {
+      font-size: 1rem;
+    }
+  
+    .mesa-card button {
+      padding: 6px 12px;
+      font-size: 0.9rem;
+    }
+  
+    .menu-buttons {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }

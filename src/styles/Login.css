@@ -1,0 +1,83 @@
+/* Fundo escuro com efeito radial */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: radial-gradient(circle, #1a0000, #000000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Centraliza tudo */
+  .login-container {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow:
+      0 0 15px #ff8c00,
+      0 0 30px #ff8c00;
+  }
+  
+  /* Título principal com efeito neon */
+  .login-container h1 {
+    font-size: 2.2rem;
+    color: #fff;
+    text-shadow:
+      0 0 5px #ff8c00,
+      0 0 10px #ff8c00,
+      0 0 20px #ff8c00;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    color: #ffb800;
+    text-shadow:
+      0 0 5px #ffb800,
+      0 0 15px #ff8c00;
+  }
+  
+  /* Inputs com brilho interno */
+  .login-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ff7300;
+    border-radius: 8px;
+    background-color: #111;
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: inset 0 0 8px #ff7300;
+    outline: none;
+  }
+  
+  .login-container input::placeholder {
+    color: #ccc;
+  }
+  
+  /* Botões com brilho neon */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    background-color: #ff7300;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    box-shadow:
+      0 0 10px #ff7300,
+      0 0 20px #ff7300;
+    transition: 0.3s;
+  }
+  
+  .login-container button:hover {
+    background-color: #ffa733;
+    box-shadow:
+      0 0 12px #ffa733,
+      0 0 24px #ffa733;
+  }
